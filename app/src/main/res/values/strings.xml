@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CodeReView</string>
+    <string name="successful">Successful</string>
+    <string name="unsuccessful">Upcoming</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="flight_number">Flight Number</string>
+    <string name="details">Details</string>
+    <string name="date_utc">Launch Date UTC</string>
+    <string name="launch_success">Launch Success</string>
+    <string name="title">SpaceX Launches</string>
+    <string name="tap_for_details">Tap a mission for more details.</string>
+    <string name="rocket_list_fragment">Rocket List Fragment</string>
+    <string name="rocket_details_fragment">Rocket Details Fragment</string>
+    <string name="flight_name">Flight Name</string>
+    <string name="flight_details">Flight Details</string>
+    <string name="flight_date">Flight Date</string>
+    <string name="number_id">Number: %d</string>
+</resources>

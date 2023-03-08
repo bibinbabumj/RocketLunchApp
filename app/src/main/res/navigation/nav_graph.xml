@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rocket_listFragment">
+
+
+    <fragment
+        android:id="@+id/rocket_listFragment"
+        android:name="com.example.bibin.codereview.fragments.rocket_lunch_list.ListFragment"
+        android:label="@string/rocket_list_fragment"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_rocket_listFragment_to_rocket_details"
+            app:destination="@id/rocket_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rocket_details"
+        android:name="com.example.bibin.codereview.fragments.rocket_lunch_details.DetailFragment"
+        android:label="@string/rocket_details_fragment"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
+
